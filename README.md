@@ -1,8 +1,8 @@
-# Pet Harmony Frontend
+# Pet Care Frontend
 
 ## Overview
 
-Pet Harmony is a full-stack Pet Blog website that allows users to post about pets. It supports two roles: **User** and **Admin**.
+Pet Care is a full-stack Pet Blog website that allows users to post about pets. It supports two roles: **User** and **Admin**.
 
 ### Admin Credentials:
 - **Admin Email:** user@admin.com
