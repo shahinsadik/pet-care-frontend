@@ -12,7 +12,6 @@ import {
 } from "@nextui-org/dropdown";
 import { usePathname, useRouter } from "next/navigation";
 import { toast } from "sonner";
-
 const NavbarDropdown = () => {
   const router = useRouter();
   const pathname = usePathname();
