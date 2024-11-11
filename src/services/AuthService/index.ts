@@ -6,6 +6,7 @@ import { cookies } from "next/headers";
 import { FieldValues } from "react-hook-form";
 
 //* Register user
+
 export const registerUser = async (userData: FieldValues) => {
   try {
     const { data } = await axiosInstance.post("/user/register", userData);
