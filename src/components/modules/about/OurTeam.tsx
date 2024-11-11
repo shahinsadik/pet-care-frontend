@@ -20,10 +20,10 @@ const OurTeam = () => {
               />
             </div>
             <h4 className="text-xl font-semibold text-default-900 mb-2 capitalize transition-all duration-500 group-hover:text-teal-400 text-center">
-              Nabiur Siddique
+              Shahin Sadik
             </h4>
             <span className="text-default-500 transition-all duration-500 group-hover:text-default-900 text-center">
-              Founder
+              Ceo & Founder
             </span>
           </div>
 
@@ -37,7 +37,7 @@ const OurTeam = () => {
               />
             </div>
             <h4 className="text-xl font-semibold text-default-900 mb-2 capitalize transition-all duration-500 group-hover:text-teal-400 text-center">
-              Angela Yu
+              Robin
             </h4>
             <span className="text-default-500 transition-all duration-500 group-hover:text-default-900 text-center">
               Co-Founder
@@ -54,7 +54,7 @@ const OurTeam = () => {
               />
             </div>
             <h4 className="text-xl font-semibold text-default-900 mb-2 capitalize transition-all duration-500 group-hover:text-teal-400 text-center">
-              Nishat Iftekhar
+              Rafiq
             </h4>
             <span className="text-default-500 transition-all duration-500 group-hover:text-default-900 text-center">
               Chairman
@@ -71,10 +71,10 @@ const OurTeam = () => {
               />
             </div>
             <h4 className="text-xl font-semibold text-default-900 mb-2 capitalize transition-all duration-500 group-hover:text-teal-400 text-center">
-              Yasmine Tano
+              Jon de
             </h4>
             <span className="text-default-500 transition-all duration-500 group-hover:text-default-900 text-center">
-              CEO
+              Co-CEO
             </span>
           </div>
 
@@ -88,7 +88,7 @@ const OurTeam = () => {
               />
             </div>
             <h4 className="text-xl font-semibold text-default-900 mb-2 capitalize transition-all duration-500 group-hover:text-teal-400 text-center">
-              Zisan Islam
+              Victor
             </h4>
             <span className="text-default-500 transition-all duration-500 group-hover:text-default-900 text-center">
               Product Manager
