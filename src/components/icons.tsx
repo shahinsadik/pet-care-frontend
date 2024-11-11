@@ -6,10 +6,10 @@ import { IconSvgProps } from "../types";
 
 
 export const Logo: React.FC<IconSvgProps> = ({
-  size = 36,
+  size = 52,
   width,
   height,
-  color = '#14b8a6',
+  color = '#000000',
   ...props
 }) => (
   <svg

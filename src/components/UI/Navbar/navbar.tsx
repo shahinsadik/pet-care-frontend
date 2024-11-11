@@ -24,12 +24,12 @@ export const Navbar = () => {
   const { user } = useUser();
   
   return (
-    <NextUINavbar maxWidth="xl" position="sticky" className="lg:z-[99]">
+    <NextUINavbar maxWidth="xl" position="sticky" className="lg:z-[99] bg-[#14b8a6]">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Logo />
-            <h3 className="font-extrabold text-teal-500 text-xl">
+            <Logo className="transition-transform transform hover:scale-110" />
+            <h3 className="font-extrabold  hover:text-white text-xl">
               Pet Care
             </h3>
           </NextLink>
@@ -40,7 +40,7 @@ export const Navbar = () => {
               <NextLink
                 className={clsx(
                   linkStyles({ color: "foreground" }),
-                  "data-[active=true]:text-primary data-[active=true]:font-medium"
+                  "data-[active=true]:text-primary text-2xl font-semibold data-[active=true]:font-medium text-white"
                 )}
                 color="foreground"
                 href={item.href}
@@ -66,8 +66,13 @@ export const Navbar = () => {
         ) : (
           <NavbarItem className="hidden sm:flex gap-2">
             <Link href="/login">
-              <Button color="success" variant="ghost">
+              <Button  className="text-bold">
                 Log In
+              </Button>
+            </Link>
+            <Link href="/register">
+              <Button  className=" text-bold">
+                Sign Up
               </Button>
             </Link>
           </NavbarItem>

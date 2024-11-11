@@ -35,7 +35,7 @@ const NavbarDropdown = () => {
   return (
     <Dropdown>
       <DropdownTrigger>
-        <Avatar className="cursor-pointer" src={user?.profileImage} />
+        <Avatar className="cursor-pointer border-2 hover:border-4 border-black" src={user?.profileImage} />
       </DropdownTrigger>
       {user?.role === "user" ? (
         <>

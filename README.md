@@ -2,57 +2,59 @@
 
 ## Overview
 
-This is a full-stack Pet Blog website that allows users to post about pets. The application has two roles: **User** and **Admin**.
+Pet Harmony is a full-stack Pet Blog website that allows users to post about pets. It supports two roles: **User** and **Admin**.
 
-## Admin Credentials:
+### Admin Credentials:
+- **Admin Email:** user@admin.com
+- **Admin Password:** 123456
 
-- Admin Email: nabiursiddique01@gmail.com
-- Admin Password: 123456
+### User Credentials:
+- **User Email:** admin@admin.com
+- **User Password:** 123456
 
-## User Credentials:
+---
 
-- User Email: zisan@gmail.com
-- User Password: 123456
+## Features
 
-### Features
+### User Features:
+- Create an account to post and view posts.
+- View profile information.
+- Update profile information.
+- View their own posts.
+- Change their password.
 
-- **User:**
+### Admin Features:
+- Edit profile information.
+- Add new posts.
+- Accept or reject users' posts.
+- View all users, delete them, and change their roles.
+- Change admin password.
 
-  - Create an account to create post and see posts.
-  - View Profile information.
-  - Update profile information.
-  - View there posts.
-  - Change password
+---
 
-- **Admin:**
-  - Profile Edit
-  - Add posts.
-  - Accept and reject users posts.
-  - View all users, Delete then and change their role.
-  - Change password
+## Technologies Used
 
-### Technologies Used
+### Frontend:
+- **Next.js** - React-based framework for building user interfaces.
+- **TanStack Query** - Data fetching and caching library.
+- **Tailwind CSS** - Utility-first CSS framework.
+- **NextUI** - React components library for faster UI development.
+- **TypeScript** - Type-safe JavaScript superset.
 
-- **Frontend:**
+### Backend:
+- **Node.js** - JavaScript runtime environment for the backend.
+- **TypeScript** - Type-safe JavaScript for the backend.
+- **MongoDB** - NoSQL database for storing user and post data.
+- **Mongoose** - ODM for MongoDB.
+- **JWT (JSON Web Token)** - For secure authentication and authorization.
 
-  - NextJs
-  - Tanstack Query
-  - Tailwind CSS
-  - NextUI
-  - TypeScript
-
-- **Backend:**
-  - Node.js
-  - TypeScript
-  - MongoDB
-  - Mongoose
-  - JWT
+---
 
 ## To Run The Project
 
-To run the project in your device _clone_ the project and then run the following commands
+Follow these steps to run the project on your local machine:
 
-```shell
-npm install
-npm run dev
-```
+1. **Clone the Repository:**
+
+```bash
+git clone https://github.com/shahinsadik/pet-care-frontend
