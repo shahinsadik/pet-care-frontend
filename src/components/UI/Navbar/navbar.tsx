@@ -22,6 +22,7 @@ import { Button } from "@nextui-org/button";
 
 export const Navbar = () => {
   const { user } = useUser();
+  
   return (
     <NextUINavbar maxWidth="xl" position="sticky" className="lg:z-[99]">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
