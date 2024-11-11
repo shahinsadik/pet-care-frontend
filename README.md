@@ -4,6 +4,8 @@
 
 Pet Care is a full-stack Pet Blog website that allows users to post about pets. It supports two roles: **User** and **Admin**.
 
+## Live Link: https://pet-care-bd.vercel.app/
+
 ### Admin Credentials:
 - **Admin Email:** user@admin.com
 - **Admin Password:** 123456
