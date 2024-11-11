@@ -3,7 +3,6 @@ import { DatePicker } from "@nextui-org/date-picker";
 import { Controller } from "react-hook-form";
 
 interface IProps extends IInput {}
-
 const FXDatePicker = ({ label, name, variant = "bordered" }: IProps) => {
   return (
     <Controller
